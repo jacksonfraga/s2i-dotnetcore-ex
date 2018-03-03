@@ -17,7 +17,7 @@ namespace app.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page. [edited]";
+            ViewData["Message"] = "Esta aplicação é um teste com git e openshift.";
 
             return View();
         }
